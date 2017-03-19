@@ -13,11 +13,11 @@ https://codeseven.github.io/toastr/
 
 This is how it will look like with Toastr view.
 
-![screen shot Toastr](https://raw.githubusercontent.com/sefer/zend-flashmessenger-toastr/master/assets/screen-shot.png)
+![screen shot Toastr](https://raw.githubusercontent.com/seyfer/zend-flashmessenger-toastr/master/assets/screen-shot.png)
 
 And this is Bootstrap
 
-![screen shot Bootstrap](https://raw.githubusercontent.com/sefer/zend-flashmessenger-toastr/master/assets/screen-shot2.png)
+![screen shot Bootstrap](https://raw.githubusercontent.com/seyfer/zend-flashmessenger-toastr/master/assets/screen-shot2.png)
 
 
 Installation
