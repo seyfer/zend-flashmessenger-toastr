@@ -28,10 +28,19 @@ Installation
 Than add module to your **config/modules.config.php**
 
 ```php
-'modules' => array(
+'modules' => [
     '...',
     'Seyfer\Zend\Flashmessenger'
-),
+],
+```
+
+You can switch the source of Toastr lib files by using this config in your **module.config.php**
+
+```php
+'toastr' => [
+    //cdn or assets
+    'source' => 'cdn',
+],
 ```
 
 How to use it

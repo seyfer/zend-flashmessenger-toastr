@@ -20,8 +20,11 @@ class FlashMessagesHelperFactory implements FactoryInterface
     {
         $vhm = $container->get('ViewHelperManager');
 
-        $is = $vhm->get('inlinescript');
+        $is  = $vhm->get('inlinescript');
+        $url = $vhm->get('url');
 
-        return new FlashMessagesHelper($is);
+        $config = $container->get('Config');
+
+        return new FlashMessagesHelper($is, $url, $config);
     }
 }
