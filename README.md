@@ -11,6 +11,11 @@ https://github.com/plasticbrain/PhpFlashMessages
 Toastr view and standard bootstrap view.
 https://codeseven.github.io/toastr/
 
+If you want to use standard ZF3 Flashmessanger there is another module available.
+https://github.com/jenzri-nizar/zf3-flashmessenger
+
+---
+
 This is how it will look like with Toastr view.
 
 ![screen shot Toastr](https://raw.githubusercontent.com/seyfer/zend-flashmessenger-toastr/master/assets/screen-shot.png)
