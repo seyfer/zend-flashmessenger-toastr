@@ -6,14 +6,14 @@
  * Date: 3/19/17
  */
 
-namespace Seyfer\Zend\Flashmessabger;
+namespace Seyfer\Zend\Flashmessenger;
 
 
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
 /**
  * Class Module
- * @package Seyfer\Zend\Flashmessabger
+ * @package Seyfer\Zend\Flashmessenger
  */
 class Module implements ConfigProviderInterface
 {

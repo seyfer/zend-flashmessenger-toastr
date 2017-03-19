@@ -1,6 +1,6 @@
 <?php
 
-namespace Seyfer\Zend\Flashmessabger\View\Helper;
+namespace Seyfer\Zend\Flashmessenger\View\Helper;
 
 
 use Interop\Container\ContainerInterface;
@@ -8,7 +8,7 @@ use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Class FlashMessagesHelperFactory
- * @package Seyfer\Zend\Flashmessabger\View\Helper
+ * @package Seyfer\Zend\Flashmessenger\View\Helper
  */
 class FlashMessagesHelperFactory implements FactoryInterface
 {

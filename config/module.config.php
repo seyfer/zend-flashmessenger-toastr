@@ -1,11 +1,11 @@
 <?php
 
-namespace Seyfer\Zend\Flashmessabger;
+namespace Seyfer\Zend\Flashmessenger;
 
-use Seyfer\Zend\Flashmessabger\Controller\FlashMessengerController;
-use Seyfer\Zend\Flashmessabger\Controller\Plugin\FlashMessagesPlugin;
-use Seyfer\Zend\Flashmessabger\View\Helper\FlashMessagesHelper;
-use Seyfer\Zend\Flashmessabger\View\Helper\FlashMessagesHelperFactory;
+use Seyfer\Zend\Flashmessenger\Controller\FlashMessengerController;
+use Seyfer\Zend\Flashmessenger\Controller\Plugin\FlashMessagesPlugin;
+use Seyfer\Zend\Flashmessenger\View\Helper\FlashMessagesHelper;
+use Seyfer\Zend\Flashmessenger\View\Helper\FlashMessagesHelperFactory;
 use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Seyfer\Zend\Flashmessabger\View\Helper;
+namespace Seyfer\Zend\Flashmessenger\View\Helper;
 
 
 use Plasticbrain\FlashMessages\FlashMessages;
@@ -10,7 +10,7 @@ use Zend\View\Helper\Url;
 
 /**
  * Class FlashMessagesHelper
- * @package Seyfer\Zend\Flashmessabger\View\Helper
+ * @package Seyfer\Zend\Flashmessenger\View\Helper
  */
 class FlashMessagesHelper extends AbstractHelper
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Seyfer\Zend\Flashmessabger\Controller;
+namespace Seyfer\Zend\Flashmessenger\Controller;
 
 
 use Zend\Mvc\Controller\AbstractActionController;
 
 /**
  * Class FlashMessengerController
- * @package Seyfer\Zend\Flashmessabger\Controller
+ * @package Seyfer\Zend\Flashmessenger\Controller
  */
 class FlashMessengerController extends AbstractActionController
 {
