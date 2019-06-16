@@ -38,8 +38,8 @@ class FlashMessagesHelper extends AbstractHelper
     public function __construct(InlineScript $inlineScript, Url $url, array $config)
     {
         $this->inlineScript = $inlineScript;
-        $this->config       = $config;
-        $this->url          = $url;
+        $this->config = $config;
+        $this->url = $url;
     }
 
     /**

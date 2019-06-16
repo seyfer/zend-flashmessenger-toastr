@@ -10,33 +10,33 @@ use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
-    'toastr'             => [
+    'toastr' => [
         //cdn or assets
         'source' => 'cdn',
     ],
-    'router'             => [
+    'router' => [
         'routes' => [
             'FlashMessenger' => [
-                'type'    => Segment::class,
+                'type' => Segment::class,
                 'options' => [
-                    'route'       => '/flashmessenger[/:action]',
+                    'route' => '/flashmessenger[/:action]',
                     'constraints' => [
                         'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
                     ],
-                    'defaults'    => [
+                    'defaults' => [
                         'controller' => FlashMessengerController::class,
-                        'action'     => 'index',
+                        'action' => 'index',
                     ],
                 ],
             ],
         ],
     ],
-    'controllers'        => [
+    'controllers' => [
         'factories' => [
             FlashmessengerController::class => InvokableFactory::class,
         ],
     ],
-    'view_manager'       => [
+    'view_manager' => [
         'template_path_stack' => [
             __DIR__ . '/../view',
         ],
@@ -45,16 +45,16 @@ return [
         'factories' => [
             FlashMessagesPlugin::class => InvokableFactory::class,
         ],
-        'aliases'   => [
+        'aliases' => [
             'msg' => FlashMessagesPlugin::class,
-        ]
+        ],
     ],
-    'view_helpers'       => [
+    'view_helpers' => [
         'factories' => [
             FlashMessagesHelper::class => FlashMessagesHelperFactory::class,
         ],
-        'aliases'   => [
-            'msg' => FlashMessagesHelper::class
-        ]
+        'aliases' => [
+            'msg' => FlashMessagesHelper::class,
+        ],
     ],
 ];

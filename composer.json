@@ -1,49 +1,49 @@
 {
-  "name": "seyfer/zend-flashmessenger-toastr",
-  "license": "MIT",
-  "description": "Zend Framework 3 flashmessenger module with Toastr integration",
-  "keywords": [
-    "zend Framework 3",
-    "flashmessenger",
-    "Zend",
-    "Toastr"
-  ],
-  "homepage": "http://seyferseed.ru/",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "authors": [
-    {
-      "name": "Oleg Abrazhaev",
-      "email": "seyferseed@mail.ru"
-    }
-  ],
-  "require": {
-    "php": "^5.6 || ^7.0",
-    "zendframework/zend-mvc": "^3.0.1",
-    "seyfer/PhpFlashMessages": "1.0.1"
-  },
-  "autoload": {
-    "psr-4": {
-      "Seyfer\\Zend\\Flashmessenger\\": "src/"
-    }
-  },
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "seyfer/PhpFlashMessages",
-        "version": "1.0.1",
-        "source": {
-          "type": "git",
-          "url": "https://github.com/seyfer/PhpFlashMessages",
-          "reference": "master"
-        },
-        "autoload": {
-          "psr-4": {
-            "Plasticbrain\\FlashMessages\\": "src/"
-          }
+    "name": "seyfer/zend-flashmessenger-toastr",
+    "license": "MIT",
+    "description": "Zend Framework 3 flashmessenger module with Toastr integration",
+    "keywords": [
+        "zend Framework 3",
+        "flashmessenger",
+        "Zend",
+        "Toastr"
+    ],
+    "homepage": "http://seyferseed.ru/",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Oleg Abrazhaev",
+            "email": "seyferseed@mail.ru"
         }
-      }
-    }
-  ]
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "zendframework/zend-mvc": "~3.0.4",
+        "seyfer/PhpFlashMessages": "~1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seyfer\\Zend\\Flashmessenger\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "seyfer/PhpFlashMessages",
+                "version": "1.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/seyfer/PhpFlashMessages",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Plasticbrain\\FlashMessages\\": "src/"
+                    }
+                }
+            }
+        }
+    ]
 }
